@@ -7,4 +7,4 @@ app.get('/', (req, res) => {
 })
 
 
-app.listen(80, () => console.log('Server up'))
+app.listen(process.env.APP_PORT, () => console.log('Server up'))
