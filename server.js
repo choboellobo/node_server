@@ -3,7 +3,7 @@ const app = express();
 
 
 app.get('/', (req, res) => {
-    res.json(process.env)
+    res.send("Hello");
 })
 
 
